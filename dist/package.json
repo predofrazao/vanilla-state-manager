@@ -1,0 +1,29 @@
+{
+  "name": "@predofrazao/vanilla-state-manager",
+  "version": "0.1.0",
+  "description": "A fast and synchronous JavaScript state manager with data persistence for TS/JS.",
+  "main": "lib/es6/index.js",
+  "module": "lib/es6/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/predofrazao/vanilla-state-manager.git"
+  },
+  "keywords": [
+    "javascript",
+    "state",
+    "cache",
+    "data"
+  ],
+  "author": "Pedro Frazão <preedoohenrique@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/predofrazao/vanilla-state-manager/issues"
+  },
+  "homepage": "https://github.com/predofrazao/vanilla-state-manager#readme",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
