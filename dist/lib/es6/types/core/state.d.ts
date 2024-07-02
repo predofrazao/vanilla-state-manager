@@ -37,4 +37,3 @@ declare class StateManager {
     remove(key: Key): void;
 }
 export { StateManager };
-//# sourceMappingURL=StateManager.d.ts.map
