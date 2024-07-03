@@ -1,5 +1,5 @@
 {
-  "name": "@predofrazao/vanilla-state-manager",
+  "name": "@pedrofrazao/vanilla-state-manager",
   "version": "0.1.0",
   "description": "A fast and synchronous JavaScript state manager with data persistence for TS/JS.",
   "main": "lib/es6/index.js",
