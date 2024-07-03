@@ -9,7 +9,7 @@
     "typescript": "^5.5.3"
   },
   "scripts": {
-    "compile": "rm -rf dist/lib && tsc"
+    "build": "rm -rf dist/lib && tsc"
   },
   "repository": {
     "type": "git",
