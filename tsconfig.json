@@ -5,7 +5,6 @@
     "target": "ES6",
     "declaration": true,
     "outDir": "dist/lib/es6",
-    "declarationDir": "dist/lib/es6/types",
     "strict": true,
     "noImplicitAny": true,
     "noUnusedParameters": true,
