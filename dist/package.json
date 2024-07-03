@@ -1,6 +1,6 @@
 {
   "name": "@pedrofrazao/vanilla-state-manager",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A fast and synchronous JavaScript state manager with data persistence for TS/JS.",
   "main": "lib/es6/index.js",
   "module": "lib/es6/index.js",
@@ -22,8 +22,5 @@
   "bugs": {
     "url": "https://github.com/predofrazao/vanilla-state-manager/issues"
   },
-  "homepage": "https://github.com/predofrazao/vanilla-state-manager#readme",
-  "devDependencies": {
-    "typescript": "^5.5.3"
-  }
+  "homepage": "https://github.com/predofrazao/vanilla-state-manager#readme"
 }
