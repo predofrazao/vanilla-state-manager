@@ -140,21 +140,19 @@ class VanillaStateManager {
    * @param exactlyMatch If true will return only the state that the key is exactly as the provided key. If false, will return all states that the key starts with the provided key.
    */
   #_GetPersistedState(key: Key, exactlyMatch = true) {
-    return this.#_GetAllPersistedStates().filter(
-      ([persistedStateKey]) => {
-        if (exactlyMatch && !this.#_CheckStateKeyEquality(key, persistedStateKey)) {
+    return this.#_GetAllPersistedStates().filter(([persistedStateKey]) => {
+      if (exactlyMatch && !this.#_CheckStateKeyEquality(key, persistedStateKey)) {
+        return false;
+      }
+
+      for (let i = 0; i < key.length; i++) {
+        if (persistedStateKey[i] !== key[i]) {
           return false;
         }
-
-        for (let i = 0; i < key.length; i++) {
-          if (persistedStateKey[i] !== key[i]) {
-            return false;
-          }
-        }
-
-        return true;
       }
-    );
+
+      return true;
+    });
   }
 
   /**
@@ -280,4 +278,4 @@ class VanillaStateManager {
   }
 }
 
-export default VanillaStateManager;
+export { VanillaStateManager };
