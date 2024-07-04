@@ -24,7 +24,7 @@ const STORAGE_METHODS: { [key in StorageMethods]: "sessionStorage" | "localStora
   local: "localStorage",
 };
 
-class StateManager {
+class VanillaStateManager {
   private _STATE_CHANGE_CUSTOM_EVENT = "_state_manager_state_change";
   private _WAITING_FIRST_CHANGE_LISTENERS: Key[] = [];
 
@@ -280,4 +280,4 @@ class StateManager {
   }
 }
 
-export { StateManager };
+export default VanillaStateManager;
