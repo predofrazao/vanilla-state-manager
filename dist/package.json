@@ -1,6 +1,6 @@
 {
   "name": "@pedrofrazao/vanilla-state-manager",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A fast and synchronous JavaScript state manager with data persistence for TS/JS.",
   "main": "lib/es6/index.js",
   "module": "lib/es6/index.js",
