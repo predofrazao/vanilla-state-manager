@@ -100,13 +100,13 @@
   </main>
 
   <script type="module">
-    import { StateManager } from "https://cdn.jsdelivr.net/gh/predofrazao/vanilla-state-manager@latest/dist/StateManager.js"
+    import { VanillaStateManager } from "https://esm.sh/@pedrofrazao/vanilla-state-manager";
 
     lucide.createIcons();
 
     let savedMessageTimeout;
 
-    const stateManagerInstance = new StateManager({
+    const stateManagerInstance = new VanillaStateManager({
       defaultStorageKey: "state_manager_email_example",
       defaultStorageMethod: "local",
       persistAll: true,
